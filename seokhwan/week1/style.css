@@ -1,0 +1,64 @@
+.mainInfoSection {
+    height: 864px;
+    width: 1920px;
+    display : flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mainImageDiv {
+    height: 744px;
+    width: 744px;
+}
+
+.mainImageContent {
+    width: 744px;
+    height: 744px;
+    object-fit: cover;
+}
+
+.mainInfoDiv {
+    width: 744px;
+}
+
+.divider {
+    background-color: beige;
+    height: 20px;
+    width: 1920px;
+}
+
+.nameContent {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.mainInfoContent {
+    font-size: 50px;
+    color : lightslategrey;
+}
+
+.snsSection {
+    width: 1728px;
+    height: 136px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-left: 128px;
+    padding-right: 64px;
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.snsDiv {
+    width: 864px;
+    height: 136px;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+}
+
+.snsContent {
+    width: 864px;
+}
