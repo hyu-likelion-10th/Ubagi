@@ -1,0 +1,72 @@
+.container {
+  width: 700px;
+  height: 400px;
+  border: 3px solid black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.up {
+  display: flex;
+  height: 300px;
+}
+
+.image {
+  width: 300px;
+}
+
+.circle {
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+}
+
+img {
+  border-radius: 50%;
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.info-container {
+  width: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.name {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.down {
+  border-top: 4px solid orange;
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.github {
+  margin-left: auto;
+  margin-right: 20px;
+}
+
+.instagram {
+  margin-right: auto;
+}
+
+
+
