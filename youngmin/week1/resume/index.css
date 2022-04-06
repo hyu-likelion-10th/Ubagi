@@ -1,0 +1,30 @@
+p {
+    margin: 0;
+}
+ul {
+    padding: 0;
+}
+ol {
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+.headerWrapper {
+ margin: 10px;
+}
+.caption {
+    display: flex;
+    justify-content: space-between;
+}
+.contentWrapper {
+    margin: 10px;
+    padding-top: 20px;
+}
+.links {
+    display: flex;
+    gap: 10px;
+}
+.name {
+    font-size: 16px;
+}
